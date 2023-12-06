@@ -16,7 +16,7 @@
               <h5 class="card-title">{user.name}</h5>
               <p class="card-text">{user.email}</p>
               <p class="card-text">{user.phone}</p>
-              <a href={`/user/${user.id}`} class="btn btn-primary">
+              <a href={`/users/${user.id}`} class="btn btn-primary">
                 See Details
               </a>
             </div>
